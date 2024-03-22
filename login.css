@@ -1,0 +1,80 @@
+.Rectangle-260 {
+    width: 1440px;
+    height: 1023px;
+    padding: 136px 164px 174px;
+    transform: rotate(-180deg);
+    background-color: #f5eee6;
+  }
+
+  .Rectangle-235 {
+    width: 483px;
+    height: 712px;
+    border-radius: 10px;
+  }
+
+  .Frame-49 {
+    width: 629px;
+    height: 713px;
+    margin: 0 0 0 483px;
+    padding: 66px 22px 77px 28px;
+    border-radius: 10px;
+    background-color: #e6a4b4;
+  }
+
+  .Login {
+    width: 89px;
+    height: 48px;
+    margin: 0 294px 36px 9px;
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #835151;
+  }
+
+  .Selamat-datang-kembali-Kami-senang-Anda-kembali-ke-akun-Anda-Mohon-masukkan-infromasi-login-Anda {
+    width: 566px;
+    height: 48px;
+    margin: 36px 7px 39px 6px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #835151;
+  }
+
+  .Alamat-Email {
+    width: 96px;
+    height: 21px;
+    flex-grow: 0;
+    margin: 0 470px 14px 6px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #835151;
+  }
+
+  .Rectangle-17 {
+    width: 572px;
+    height: 59px;
+    flex-grow: 0;
+    margin: 14px 0 0;
+    padding: 19px 387px 19px 16px;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    border: solid 1px #d5d5d5;
+    background-color: rgba(217, 217, 217, 0.5);
+  }
