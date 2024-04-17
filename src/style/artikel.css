@@ -1,0 +1,62 @@
+.container-artikel{
+    margin: 50px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+
+}
+
+.card {
+    background-color: #e3a2b283;
+    box-shadow: 0 4px 8px 0  rgba(0,0,0,0.2),
+                0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 280px;
+    height: 350px;
+    margin-top: 50px;
+    border-radius: 16px;
+    position: relative;
+ }
+
+ .card img{
+   width: 280px;
+   height: 156px;
+   object-fit: cover;
+   border-radius: 16px;
+}
+
+ .content{
+   font-size: 14px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+ }
+
+ .content p{
+   font-size: 14px;
+   width: auto;
+   height: 30px;
+ }
+
+ .title-card {
+   height: 80px;
+   font-size: 18px;
+   font-weight: bold;
+ }
+
+ .Selengkapnya {
+   font-size: 10px;
+   text-align: center;
+   margin-top: 0;
+   margin-left: 150px;
+   background-color: #fff;
+   color: black;
+   width: 90px;
+   padding: 5px;
+   border: 1px solid #e6a4b4;
+   border-radius: 30px;
+   align-items: center;
+   justify-content: center;
+ }
+
+

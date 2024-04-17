@@ -1,102 +1,71 @@
 body{
-    font-family: 'poppins';
-    background-color:#F5EEE6;
+  font-family: 'poppins';
+  background-color:#F5EEE6;
 }
 
 .container-fluid{
-    max-width: 100%;
+  max-width: 100%;
 }
 
-.navbar{
-margin: 20px;
-justify-content: center;
-border-bottom: 1px solid #e6a4b4;
-}
-
-.navbar-nav {
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-  }
-
-  .navbar-nav li {
-    margin: 0px 20px; /* Sesuaikan jarak antar item navbar */
-  }
-
-.navbar-nav li a{
-font-weight: 600;
-margin: 0px 30px 0 0;
-color: #e6a4b4;
-}
-
-.logo {
-display: flex;
-align-items: center; /* Untuk memposisikan logo di tengah vertikal */
-}
-
-.logo img {
-width: 300px; /* Sesuaikan ukuran logo dengan kebutuhan */
-height: auto; /* Biarkan tinggi otomatis menyesuaikan proporsi */
-margin-right: 20px; /* Atur jarak antara logo dan menu navigasi */
-}
 
 .left-box{
 position:relative;
-  width: 600px;
-  height: 702px;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  padding: 28px;
-  border-radius: 20px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-  background-color: #e6a4b4;
+width: 600px;
+height: 702px;
+margin-top: 100px;
+margin-bottom: 100px;
+padding: 28px;
+border-radius: 20px;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+background-color: #e6a4b4;
 }
 
+
 .left-box img{
-       height: 837px;
-       margin-top: -140px;
-       margin-left: -145px;
-       display: flex;
-       justify-content: center;
-       align-content: center;
+     height: 837px;
+     margin-top: -140px;
+     margin-left: -145px;
+     display: flex;
+     justify-content: center;
+     align-content: center;
 }
 
 .right-side h1{
-    font-size: 40px ;
-    margin-top: 160px;
-    padding-bottom: 20px;
-    color: #835151;
-    border-bottom: 1px solid #e6a4b4;
+  font-size: 40px ;
+  margin-top: 160px;
+  padding-bottom: 20px;
+  color: #835151;
+  border-bottom: 1px solid #e6a4b4;
 }
 
 .right-side p{
-    width: 400px;
-    margin-left: 40px;
-    font-size: 18px;
-    margin-top: 20px;
-    color: #835151;
+  width: 400px;
+  margin-left: 40px;
+  font-size: 18px;
+  margin-top: 20px;
+  color: #835151;
 }
 
 .box-mid{
-    position:relative; 
-  width: 957px;
-  height: 500px;
-  left: 190px;
-  margin: 140px 20px 0 0; 
-  border-radius: 20px;
-  background-color: #e6a4b4;
-  display: flex;
-  align-items: center;
-  
+  position:relative; 
+width: 957px;
+height: 500px;
+left: 190px;
+margin: 140px 20px 0 0; 
+border-radius: 20px;
+background-color: #e6a4b4;
+display: flex;
+align-items: center;
+
 }
 
 .box-mid img{
-    width: 584px;
-    height: 544px;
-    margin-left: -210px;
-    display: flex;
-    justify-content: center;
-    align-content: center;
+  width: 584px;
+  height: 544px;
+  margin-left: -210px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 
 }
 
@@ -120,32 +89,32 @@ color: #835151;
 
 
 .border-dashed{
-    box-sizing: border-box;
-    margin-left:0;
-    margin-top: 140px;
-    border: 2px dashed #835151;
-    border-radius: 20px;
+  box-sizing: border-box;
+  margin-left:0;
+  margin-top: 140px;
+  border: 2px dashed #835151;
+  border-radius: 20px;
 }
 
 .box-side{
-  width:500px;
-  height: 502px;
-  padding: 28px;
-  border-radius: 20px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-  background-color: #324877;
+width:500px;
+height: 502px;
+padding: 28px;
+border-radius: 20px;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+background-color: #324877;
 }
 
 .box-side img{
 position: absolute;
-        width: auto;
-        height: 630px;
-        left: 80px;
-        margin-top: -55px;
-        margin-left: -40px;
-        display: flex;
-        justify-content: center;
-        align-content: center;
+      width: auto;
+      height: 630px;
+      left: 80px;
+      margin-top: -55px;
+      margin-left: -40px;
+      display: flex;
+      justify-content: center;
+      align-content: center;
 }
 
 h1{
@@ -182,21 +151,21 @@ color: #835151;
 
 
 .bottom-box {
-    bottom: 0;
-    margin-left: -120px;
-    margin-top: 50px;
-    width: 1351px;
-    height: 400px;
-    background-color: #835151;
-  }
+  bottom: 0;
+  margin-left: -117px;
+  margin-top: 50px;
+  width: 1349px;
+  height: 400px;
+  background-color: #835151;
+}
 
 .bottom-box img{
-       height: 402px;
-       margin-left: 60px;
-       display: flex;
-       object-fit: cover;
-       justify-content: center;
-       align-content: center;
+     height: 402px;
+     margin-left: 60px;
+     display: flex;
+     object-fit: cover;
+     justify-content: center;
+     align-content: center;
 }
 
 
