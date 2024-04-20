@@ -8,7 +8,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <link rel="stylesheet" type="text/css" href="src/style/style.css">
   <link rel="stylesheet" type="text/css" href="src/style/home.css">
-  <link rel="stylesheet" href="artikel.css">
+  <link rel="stylesheet" href="src/style/artikel.css">
   <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
@@ -25,7 +25,7 @@
   <nav class="navbar navbar-expand-sm justify-content-center">
     <div class="container-fluid">
       <a class="navbar-brand" href="Index.html">
-        <img src="image/img-logo.png" alt="Logo" style="width:62px;">
+        <img src="src/asset/images/img-logo.png" alt="Logo" style="width:62px;">
       </a>
       <ul class="navbar-nav">
         <li class="nav-item">
@@ -44,9 +44,9 @@
           <a class="nav-link" href="#">Konsultan</a>
         </li>
       </ul>
-      <i class="material-icons-outlined">
-        account_circle
-      </i>
+      <a class="navbar-brand" href="login.html">
+        <i class="material-icons-outlined">account_circle</i>
+      </a>
     </div>
   </nav>
 </div>
@@ -62,7 +62,11 @@
       </div>
       <div class="col-sm-8 text-center">
         <h2>Make Your Fashion Look More Charming</h2>
-        </div>
+        <P style="font-weight: 700; width: 300px; margin-left: 500px; margin-top: 150px;">Steal the Look</p>
+        <p>Be bold, </p> 
+        <p>be confident,</p> 
+        <p>be you,</p>
+      </div>
 
       
 
@@ -71,21 +75,23 @@
             <div class="mid-content">
               <div class="row">
                 <div class="col-sm-2">
-                  <div class="box" style="margin-top: 140px;"></div>
+                  <div class="box" style="margin-top: 140px; background-color:#9D6D5A;">
+                  <img src="src/asset/images/img-trend-1.png" alt=""></div>
                 </div>
                 <div class="col-sm-2">
-                  <div class="box"></div>
-                  <div class="box"></div>
+                  <div class="box" style="background-color:#DAA563;"><img src="src/asset/images/img-trend-2.png" alt=""></div>
+                  <div class="box" style="background-color:#777777;"><img src="src/asset/images/img-trend-6.png" alt=""></div>
                 </div>
                 <div class="col-sm-2">
-                  <div class="box" style="height: 503px;"></div>
+                  <div class="box" style="height: 503px; background-color:#292937;">
+                  <img src="src/asset/images/img-trend-3.png" style="height: 503px;"></div>
                 </div>
                 <div class="col-sm-2">
-                  <div class="box"></div>
-                  <div class="box"></div>
+                  <div class="box" style="background-color:#1E5DBC;"><img src="src/asset/images/img-trend-4.png" alt=""></div>
+                  <div class="box" style="background-color:#969696;"><img src="src/asset/images/img-trend-7.png" alt=""></div>
                 </div>
                 <div class="col-sm-2">
-                  <div class="box" style="margin-top: 140px;"></div>
+                  <div class="box" style="margin-top: 140px; background-color:#C1C2C6;"><img src="src/asset/images/img-trend-5.png" alt=""></div>
                 </div>
               </div>
 
@@ -94,14 +100,34 @@
         <div class="mid-content">
           <div class="row">
             <div class="col-sm-4">
-              <div class="box" style="height: 503px;"></div>
+              <div class="box" style="height: 554px; background-color: #EECBCB;">
+                <div class="text-center" style="top: 65%; 
+                left: 40%; font-size: 42px;">
+                  KASUAL
+                </div>
+                <img src="src/asset/images/img-kasual.png" style="height: auto;"></div>
             </div>
             <div class="col-sm-4">
-              <div class="box"></div>
-              <div class="box"></div>
+              <div class="box" style="background-color: #FFAEC2;">
+                <div class="text-center" style="top: 10%; 
+                left: 35%;">
+                  STREATWEAR
+                </div> 
+                <img src="src/asset/images/img-streatwear.png"></div>
+              <div class="box" style="background-color: #FFAEC2;">
+                <div class="text-center" style="top: 15%; 
+                left: 7%; font-size: 30px;">
+                  FORMAL
+                </div>
+                <img src="src/asset/images/img-formal.png" alt=""></div>
             </div>
             <div class="col-sm-4">
-              <div class="box" style="height: 503px;"></div>
+              <div class="box" style="height: auto; background-color: transparent;">
+                <div class="text-center" style="top: 20%; 
+                left: 5%; font-size: 42px;">
+                  SPORTY
+                </div>
+                <img src="src/asset/images/img-sporty.png" style="height: 100%; width: 100%; object-fit: cover; margin: 0;"></div>
             </div>
           </div>
         </div>
@@ -150,10 +176,22 @@
       </div>
     </div>
 
-
-
-
+    
   </div>
+
+<div class="container">
+  <div class="row">
+  <div class="col-sm-4">
+  <div class="text-box">TENTUKAN FASHIONMU SEKARANG!
+    <div class="border-box" style="z-index: -3;"></div>
+  </div>
+  </div>
+  <div class="col-sm-8">
+    <img src="src/asset/images/img-home-2.png" style="height: 550px; margin: 100px 0 0 290px;">
+  </div>
+  </div>
+</div>
+
   </div>
 </div>
 
@@ -219,7 +257,7 @@
 
         <div class="col-md-4" style="margin-top: 100px;">
         <div class="footer-content flex-column">
-          <h4 style="width: 300px; font-weight: 600;">Sosial Media<img src="image/img-logo.png" style="width: 40px; height: 40px; margin: 0 15px;" alt=""></h4>
+          <h4 style="width: 300px; font-weight: 600;">Sosial Media<img src="src/asset/images/img-logo.png" style="width: 40px; height: 40px; margin: 0 15px;" alt=""></h4>
           <div class="d-flex flex-column flex-sm-row">
           <div class="sosial-icons" >
             <i class="fa-brands fa-facebook fa-sm"></i>
